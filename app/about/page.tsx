@@ -71,7 +71,9 @@ export default function AboutPage() {
                         </Button>
                       </div>
 
-                      <Button className="w-full mt-4" size="sm">
+                      <Button 
+                      onClick={() => window.open("/Sadikur Rahaman.pdf", "_blank")}
+                      className="w-full mt-4" size="sm">
                         <Download className="h-4 w-4 mr-2" />
                         Download Resume
                       </Button>
