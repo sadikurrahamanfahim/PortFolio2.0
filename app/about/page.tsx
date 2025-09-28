@@ -28,7 +28,7 @@ export default function AboutPage() {
                       <div className="relative inline-block mb-6">
                         <div className="w-48 h-48 bg-gradient-to-br from-primary/20 to-accent/20 rounded-full flex items-center justify-center mx-auto">
                           <img
-                            src="/software-engineer-headshot.png"
+                            src="/sadikurphoto.jpg"
                             alt="MD Sadikur Rahaman"
                             className="w-44 h-44 rounded-full object-cover border-4 border-background shadow-2xl"
                           />
