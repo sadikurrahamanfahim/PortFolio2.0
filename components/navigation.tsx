@@ -71,7 +71,9 @@ export function Navigation() {
 
             {/* Action Buttons */}
             <div className="hidden md:flex items-center gap-3">
-              <Button size="sm" className="rounded-lg">
+              <Button 
+              onClick={() => window.open("/Sadikur Rahaman.pdf", "_blank")}
+              size="sm" className="rounded-lg">
                 <Download className="h-4 w-4 mr-2" />
                 Resume
               </Button>
