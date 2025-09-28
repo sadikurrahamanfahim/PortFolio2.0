@@ -12,8 +12,8 @@ const navigation = [
   { name: "Home", href: "/", icon: Home },
   { name: "About", href: "/about", icon: User },
   { name: "Experience", href: "/experience", icon: GraduationCap }, // Added Experience navigation item
-  { name: "Skills", href: "/skills", icon: Code },
   { name: "Projects", href: "/projects", icon: Briefcase },
+  { name: "Skills", href: "/skills", icon: Code },
   { name: "Contact", href: "/contact", icon: Mail },
 ]
 
