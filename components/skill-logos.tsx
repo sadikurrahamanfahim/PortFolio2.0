@@ -62,6 +62,13 @@ const skillCategories = [
         url: "https://react.dev/",
       },
       {
+        name: "Postman",
+        logo: "/postman-logo.jpg",
+        description: "API testing and development",
+        experience: "2+ years",
+        url: "https://learning.postman.com/docs/",
+      },
+      {
         name: "Node.js",
         logo: "/node-js-runtime-logo.jpg",
         description: "Server-side JavaScript",
@@ -125,6 +132,20 @@ const skillCategories = [
         experience: "1+ years",
         url: "https://help.autodesk.com/view/ACD/2024/ENU/",
       },
+      {
+        name: "Blender",
+        logo: "/Blender.png",
+        description: "3D design",
+        experience: "1+ years",
+        url: "https://www.blender.org/",
+      },
+      {
+        name: "Lens Studio",
+        logo: "/lens-studio-logo.png",
+        description: "Ar Filter Design",
+        experience: "1+ years",
+        url: "https://ar.snap.com/lens-studio-dl?utm_source=GoogleSEM&utm_medium=PAIDPLATFORM&utm_campaign=LensStudio_Brand_IN&utm_term=Create_Snap_Filter&utm_content=LS_ProductPage&gad_source=1&gad_campaignid=20069233129&gbraid=0AAAAADGpnVHW17VAhjQ0kZQzrhJ4i-svZ&gclid=CjwKCAjwuePGBhBZEiwAIGCVSyrN1M_s9W-6EdWxjtLXdF1C43Ymn18GAan7B-QcsBERrZFu4jW3-BoC_s4QAvD_BwE",
+      },
     ],
   },
   {
@@ -133,21 +154,9 @@ const skillCategories = [
       {
         name: "Android",
         logo: "/android-mobile-development-logo.jpg",
-        description: "Java-based mobile apps",
+        description: "Java-based native android apps",
         experience: "1+ years",
         url: "https://developer.android.com/docs",
-      },
-    ],
-  },
-  {
-    title: "Development Tools",
-    skills: [
-      {
-        name: "Postman",
-        logo: "/postman-logo.jpg",
-        description: "API testing and development",
-        experience: "2+ years",
-        url: "https://learning.postman.com/docs/",
       },
     ],
   },

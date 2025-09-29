@@ -279,7 +279,6 @@ export default function SkillsPage() {
                                 <ChevronRight className="h-3 w-3" />
                               )}
                               <Lightbulb className="h-3 w-3" />
-                              Tricky Challenge
                             </button>
 
                             {expandedChallenges.has(skill.name) && (
