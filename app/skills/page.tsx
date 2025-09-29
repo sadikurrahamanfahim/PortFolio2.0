@@ -145,7 +145,7 @@ const skillCategories = [
       },
       {
         name: "AutoCAD",
-        description: "Technical drawings, 2D design",
+        description: "Technical drawings, 2D & 3D design",
         challenge:
           "Create a parametric design system that can automatically adjust architectural drawings based on building codes for different countries. How do you handle conflicting requirements?",
         hint: "Consider rule-based systems and constraint solving",
