@@ -48,67 +48,67 @@ const webProjects = [
     title: "Movie Freak",
     description:
       "An online cinema showcase website built with ASP.NET framework. Features movie listings, detailed information, and modern web development practices.",
-    image: "/movie-website-cinema-dark-theme.jpg",
+    image: "/MovieFreaks.png",
     status: "Completed",
     technologies: ["ASP.NET", "C#", "MVC", "SQL Server"],
-    features: ["Movie Catalog", "Search Functionality", "Responsive Design", "Admin Panel"],
-    demoUrl: "#",
-    githubUrl: "#",
-    date: "2024",
+    features: ["Movie Catalog",  "Detailed Relation"],
+    demoUrl: null,
+    githubUrl: "https://github.com/sadikurrahamanfahim/eTickets",
+    date: "2023",
   },
   {
-    title: "Portfolio Website",
+    title: "DataVize",
     description:
-      "Modern, responsive portfolio website showcasing projects and skills. Built with Next.js and features interactive elements and clean design.",
-    image: "/modern-portfolio-website-dark-theme.jpg",
+      "Built a Streamlit-based web application offering data preprocessing, visualization, and classification techniques using python libraries.",
+    image: "/DataVize.png",
     status: "Live",
-    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
-    features: ["Responsive Design", "Interactive Elements", "Dark Mode", "Modern UI"],
-    demoUrl: "#",
-    githubUrl: "#",
-    date: "2025",
+    technologies: ["Python", "Streamlit"],
+    features: ["Preprocessing", "Visualization", "Classification"],
+    demoUrl: "https://datavize.streamlit.app/",
+    githubUrl: "https://github.com/sadikurrahamanfahim/DataVize",
+    date: "2023",
   },
 ]
 
 const androidProjects = [
   {
-    title: "Android Learning Projects",
+    title: "Khuda Lagche!",
     description:
-      "Collection of native Android applications built with Java. Focusing on core Android development concepts and user interface design.",
-    image: "/android-app-mobile-interface.jpg",
-    status: "In Development",
-    technologies: ["Java", "Android SDK", "XML", "SQLite"],
-    features: ["Native Development", "Material Design", "Local Storage", "User Authentication"],
+      "A Food delivery Android Application mainly focused on UI principles and built with Java. Focusing on core Android development concepts and user interface design.",
+    image: "/KhudaLagche.png",
+    status: "Completed",
+    technologies: ["Java", "Android SDK", "XML", "Firebase"],
+    features: ["Native Development", "Material Design", "User Authentication"],
     demoUrl: null,
-    githubUrl: null,
-    date: "2024-2025",
+    githubUrl: "https://github.com/sadikurrahamanfahim/khuda_Lagche",
+    date: "2023",
   },
 ]
 
 const designProjects = [
   {
-    title: "Game Asset Design",
+    title: "Jingle Words Asset Design",
     description:
-      "Custom game assets and UI elements designed for various game projects. Created using Figma with focus on user experience and visual appeal.",
-    image: "/game-ui-design-assets-figma.jpg",
-    status: "Ongoing",
+      "Custom game assets and UI elements designed for Jingle Word. Created using Figma with focus on user experience and visual appeal.",
+    image: "/JingleWrods_Figma.png",
+    status: "Completed",
     technologies: ["Figma", "UI/UX Design", "Asset Creation", "Prototyping"],
     features: ["Custom Assets", "UI Components", "Prototypes", "Design Systems"],
-    demoUrl: "#",
+    demoUrl: "https://www.figma.com/proto/weWe19ycKoUCVDuI1IM6su/Jingle-Wrods?node-id=1-171&t=EWwkAqYBlOHrKVof-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
     githubUrl: null,
     date: "2024",
   },
   {
-    title: "Web Interface Designs",
+    title: "Khuda Lagche UI Design",
     description:
-      "Modern web interface designs and prototypes for various web applications. Focus on user experience and responsive design principles.",
-    image: "/web-ui-design-modern-interface.jpg",
+      "Created user interface designs for Android Application called Khuda Lagche! using Figma by collaborating with team members, focusing on user experience and visual appeal.",
+    image: "/KhudaLagche_Figma.png",
     status: "Completed",
-    technologies: ["Figma", "UI/UX", "Responsive Design", "Prototyping"],
-    features: ["Responsive Layouts", "Modern UI", "User Testing", "Design Systems"],
-    demoUrl: "#",
+    technologies: ["Figma", "UI/UX", "Prototyping"],
+    features: ["Modern UI", "User Testing", "Design Systems"],
+    demoUrl: "https://www.figma.com/proto/L5hy2UYzH5oyUtz8FktsND/Khuda-Lagche-?node-id=1-1579&t=LSW2ZCO409wIfvfb-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A1579",
     githubUrl: null,
-    date: "2024",
+    date: "2023",
   },
 ]
 
@@ -242,7 +242,7 @@ export default function ProjectsPage() {
                     </div>
                     <h3 className="font-semibold mb-2">More Android Projects</h3>
                     <p className="text-sm text-muted-foreground mb-4">
-                      Additional native Android applications are currently in development.
+                      Will work on Additional native Android applications in future.
                     </p>
                     <Badge variant="outline">Coming Soon</Badge>
                   </CardContent>

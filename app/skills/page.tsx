@@ -232,7 +232,7 @@ export default function SkillsPage() {
             <div className="mb-16">
               <Card className="code-block overflow-hidden">
                 <CardHeader className="text-center pb-8">
-                  <CardTitle className="text-2xl">Interactive Technology Stack</CardTitle>
+                  <CardTitle className="text-2xl">Technology Stack</CardTitle>
                   <p className="text-muted-foreground mt-2">Click on any technology to learn more</p>
                 </CardHeader>
                 <CardContent className="pt-0">
