@@ -9,25 +9,37 @@ const gameProjects = [
     title: "Jingle Word",
     description:
       "A Christmas-themed word puzzle game with integrated assets and time functionality. Designed majority of assets using Figma and implemented engaging gameplay mechanics.",
-    image: "/christmas-word-puzzle.png",
+    image: "/JingleWrods.png",
     status: "Under Review",
     technologies: ["Unity", "C#", "Figma", "Game Design"],
-    features: ["Christmas Theme", "Word Puzzles", "Time Challenges", "Custom Assets"],
+    features: ["Christmas Theme", "Word Puzzles", "Time Challenges", "Custom Assets & UI"],
     demoUrl: null,
-    githubUrl: null,
+    githubUrl: "https://github.com/sadikurrahamanfahim/Admob-R-D",
     date: "2024",
   },
   {
     title: "Pacman Genjam",
     description:
       "A creative remix of the classic Pacman game developed for Crazy Webgame GameJam 2024. Collaborated with team members to create an innovative take on the beloved arcade game.",
-    image: "/pacman-game-remake-colorful.jpg",
+    image: "/PacMan.png",
     status: "Completed",
     technologies: ["Unity", "C#", "Game Jam", "Team Collaboration"],
     features: ["Classic Gameplay", "Modern Graphics", "Team Development", "Game Jam Entry"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://masupasu.itch.io/pacman-genjam",
+    githubUrl: "https://github.com/sadikurrahamanfahim/Pacman-Genjam",
     date: "2024",
+  },
+  {
+    title: "Vanish Words",
+    description:
+      "Developed a simple 2D Unity game with random alphabet sorting, dynamic feedback, and endless gameplay mechanics.",
+    image: "/VanishWords.png",
+    status: "Completed",
+    technologies: ["Unity", "C#", "Game Jam", "Team Collaboration"],
+    features: ["Classic Gameplay", "Modern Graphics", "Team Development", "Game Jam Entry"],
+    demoUrl: "https://fupsee.itch.io/vanish-words",
+    githubUrl: "https://github.com/sadikurrahamanfahim/VanishWords",
+    date: "2025",
   },
 ]
 
