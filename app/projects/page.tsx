@@ -20,7 +20,7 @@ const gameProjects = [
   {
     title: "Pacman Genjam",
     description:
-      "A creative remix of the classic Pacman game developed for Crazy Webgame GameJam 2024. Collaborated with team members to create an innovative take on the beloved arcade game.",
+      "A creative remix of the classic Pacman game developed for Crazy Webgame GameJam 2024. Collaborated with team a member to create an innovative take on the beloved arcade game.",
     image: "/PacMan.png",
     status: "Completed",
     technologies: ["Unity", "C#", "Game Jam", "Team Collaboration"],

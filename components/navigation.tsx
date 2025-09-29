@@ -116,7 +116,7 @@ export function Navigation() {
               })}
             </nav>
             <div className="mt-6 pt-6 border-t border-border/50 flex items-center justify-between">
-              <Button size="sm" className="rounded-lg flex-1 mr-3">
+              <Button size="sm" className="rounded-lg flex-1 mr-3" onClick={() => window.open("/Sadikur Rahaman.pdf", "_blank")}>
                 <Download className="h-4 w-4 mr-2" />
                 Resume
               </Button>
