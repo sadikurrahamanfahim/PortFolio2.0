@@ -62,13 +62,6 @@ const skillCategories = [
         url: "https://react.dev/",
       },
       {
-        name: "Postman",
-        logo: "/postman-logo.jpg",
-        description: "API testing and development",
-        experience: "2+ years",
-        url: "https://learning.postman.com/docs/",
-      },
-      {
         name: "Node.js",
         logo: "/node-js-runtime-logo.jpg",
         description: "Server-side JavaScript",

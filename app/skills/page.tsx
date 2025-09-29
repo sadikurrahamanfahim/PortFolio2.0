@@ -261,10 +261,10 @@ export default function SkillsPage() {
                             <h4 className="font-semibold text-sm group-hover/skill:text-primary transition-colors duration-300">
                               {skill.name}
                             </h4>
-                            <Badge variant="outline" className="text-xs flex items-center gap-1">
+                            {/* <Badge variant="outline" className="text-xs flex items-center gap-1">
                               <Code className="h-3 w-3" />
                               Challenge
-                            </Badge>
+                            </Badge> */}
                           </div>
                           <p className="text-xs text-muted-foreground leading-relaxed mb-3">{skill.description}</p>
 
