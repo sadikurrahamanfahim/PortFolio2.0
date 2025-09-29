@@ -13,8 +13,12 @@ export default function AboutPage() {
           <div className="mx-auto max-w-4xl">
             {/* Header */}
             <div className="text-center mb-12">
-              <h1 className="text-4xl font-bold text-foreground mb-4">About Me</h1>
-              <p className="text-xl text-muted-foreground">Get to know more about my journey and experience</p>
+              <h1 className="text-4xl font-bold text-foreground mb-4">
+                About Me
+              </h1>
+              <p className="text-xl text-muted-foreground">
+                Get to know more about my journey and experience
+              </p>
             </div>
 
             {/* Profile Section */}
@@ -34,14 +38,21 @@ export default function AboutPage() {
                           />
                         </div>
                       </div>
-                      <h2 className="text-2xl font-bold text-foreground mb-2">MD Sadikur Rahaman</h2>
-                      <p className="text-lg text-primary mb-4">Computer Science & Engineering Graduate</p>
+                      <h2 className="text-2xl font-bold text-foreground mb-2">
+                        MD Sadikur Rahaman
+                      </h2>
+                      <p className="text-lg text-primary mb-4">
+                        Computer Science & Engineering Graduate
+                      </p>
 
                       {/* Contact Info */}
                       <div className="space-y-3 text-sm flex-grow">
                         <div className="flex items-center justify-center gap-2 text-muted-foreground">
                           <Mail className="h-4 w-4" />
-                          <a href="mailto:fahim99369@gmail.com" className="hover:text-primary transition-colors">
+                          <a
+                            href="mailto:fahim99369@gmail.com"
+                            className="hover:text-primary transition-colors"
+                          >
                             fahim99369@gmail.com
                           </a>
                         </div>
@@ -58,20 +69,34 @@ export default function AboutPage() {
                       {/* Social Links */}
                       <div className="flex justify-center gap-3 mt-6">
                         <Button variant="outline" size="sm" asChild>
-                          <a href="https://github.com/sadikurrahamanfahim" target="_blank" rel="noopener noreferrer">
+                          <a
+                            href="https://github.com/sadikurrahamanfahim"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
                             <Github className="h-4 w-4 mr-2" />
                             GitHub
                           </a>
                         </Button>
                         <Button variant="outline" size="sm" asChild>
-                          <a href="https://linkedin.com/in/sadikurrahman64" target="_blank" rel="noopener noreferrer">
+                          <a
+                            href="https://linkedin.com/in/sadikurrahman64"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
                             <Linkedin className="h-4 w-4 mr-2" />
                             LinkedIn
                           </a>
                         </Button>
                       </div>
 
-                      <Button className="w-full mt-4" size="sm">
+                      <Button
+                        className="w-full mt-4"
+                        size="sm"
+                        onClick={() =>
+                          window.open("/Sadikur Rahaman.pdf", "_blank")
+                        }
+                      >
                         <Download className="h-4 w-4 mr-2" />
                         Download Resume
                       </Button>
@@ -87,18 +112,24 @@ export default function AboutPage() {
                     </CardHeader>
                     <CardContent className="h-full">
                       <p className="text-muted-foreground leading-relaxed mb-4">
-                        Passionate Computer Science & Engineering graduate with a strong foundation in programming and
-                        problem-solving. I bring a unique blend of technical expertise and management experience, having
-                        worked across various domains from game development to web technologies.
+                        Passionate Computer Science & Engineering graduate with
+                        a strong foundation in programming and problem-solving.
+                        I bring a unique blend of technical expertise and
+                        management experience, having worked across various
+                        domains from game development to web technologies.
                       </p>
                       <p className="text-muted-foreground leading-relaxed mb-4">
-                        My journey in technology started with curiosity about how things work and evolved into a passion
-                        for creating innovative digital solutions. I believe in the power of technology to solve
-                        real-world problems and create meaningful experiences.
+                        My journey in technology started with curiosity about
+                        how things work and evolved into a passion for creating
+                        innovative digital solutions. I believe in the power of
+                        technology to solve real-world problems and create
+                        meaningful experiences.
                       </p>
                       <p className="text-muted-foreground leading-relaxed">
-                        When I'm not coding, I enjoy exploring new technologies, contributing to open-source projects,
-                        and staying updated with the latest trends in software development and game design.
+                        When I'm not coding, I enjoy exploring new technologies,
+                        contributing to open-source projects, and staying
+                        updated with the latest trends in software development
+                        and game design.
                       </p>
                     </CardContent>
                   </Card>
@@ -115,23 +146,35 @@ export default function AboutPage() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                       <div className="text-center p-4 bg-muted rounded-lg">
                         <div className="text-2xl mb-2">🎮</div>
-                        <h3 className="font-semibold text-sm">Game Development</h3>
-                        <p className="text-xs text-muted-foreground mt-1">Unity Engine</p>
+                        <h3 className="font-semibold text-sm">
+                          Game Development
+                        </h3>
+                        <p className="text-xs text-muted-foreground mt-1">
+                          Unity Engine
+                        </p>
                       </div>
                       <div className="text-center p-4 bg-muted rounded-lg">
                         <div className="text-2xl mb-2">🌐</div>
-                        <h3 className="font-semibold text-sm">Web Development</h3>
-                        <p className="text-xs text-muted-foreground mt-1">Full-Stack</p>
+                        <h3 className="font-semibold text-sm">
+                          Web Development
+                        </h3>
+                        <p className="text-xs text-muted-foreground mt-1">
+                          Full-Stack
+                        </p>
                       </div>
                       <div className="text-center p-4 bg-muted rounded-lg">
                         <div className="text-2xl mb-2">📱</div>
                         <h3 className="font-semibold text-sm">Mobile Apps</h3>
-                        <p className="text-xs text-muted-foreground mt-1">Native Android</p>
+                        <p className="text-xs text-muted-foreground mt-1">
+                          Native Android
+                        </p>
                       </div>
                       <div className="text-center p-4 bg-muted rounded-lg">
                         <div className="text-2xl mb-2">🎨</div>
                         <h3 className="font-semibold text-sm">UI/UX Design</h3>
-                        <p className="text-xs text-muted-foreground mt-1">Figma</p>
+                        <p className="text-xs text-muted-foreground mt-1">
+                          Figma
+                        </p>
                       </div>
                     </div>
                   </CardContent>
@@ -142,5 +185,5 @@ export default function AboutPage() {
         </div>
       </main>
     </div>
-  )
+  );
 }
