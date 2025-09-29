@@ -90,7 +90,7 @@ export default function AboutPage() {
                         </Button>
                       </div>
 
-                      <Button
+                      {/* <Button
                         className="w-full mt-4"
                         size="sm"
                         onClick={() =>
@@ -99,7 +99,7 @@ export default function AboutPage() {
                       >
                         <Download className="h-4 w-4 mr-2" />
                         Download Resume
-                      </Button>
+                      </Button> */}
                     </CardContent>
                   </Card>
                 </div>
