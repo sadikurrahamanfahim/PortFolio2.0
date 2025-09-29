@@ -213,7 +213,7 @@ export default function ExperiencePage() {
                     <div className="space-y-4">
                       <div className="p-4 bg-muted/50 rounded-lg">
                         <h3 className="font-semibold text-base mb-2">
-                          <a href="#" className="hover:text-primary transition-colors flex items-center gap-2">
+                          <a href="https://ieeexplore.ieee.org/abstract/document/10534403" className="hover:text-primary transition-colors flex items-center gap-2">
                             Enhancing CNN Model by Incorporating Upscaling and Downscaling Techniques for Image
                             Classification
                             <Star className="h-4 w-4" />
