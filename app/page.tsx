@@ -64,9 +64,10 @@ export default function HomePage() {
               {/* Social Links */}
               <div className="flex justify-center gap-4">
                 <Button variant="ghost" size="icon" asChild>
-                  <a href="mailto:fahim99369@gmail.com" target="_blank" rel="noopener noreferrer">
-                    <Mail className="h-5 w-5" />
-                  </a>
+                  <Link href="/contact"><Mail className="h-5 w-5" /></Link>
+                  {/* <a href="/contact" rel="noopener noreferrer">
+                    
+                  </a> */}
                 </Button>
                 <Button variant="ghost" size="icon" asChild>
                   <a href="https://github.com/sadikurrahamanfahim" target="_blank" rel="noopener noreferrer">
