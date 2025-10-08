@@ -35,8 +35,8 @@ const gameProjects = [
       "Developed a simple 2D Unity game with random alphabet sorting, dynamic feedback, and endless gameplay mechanics.",
     image: "/VanishWords.png",
     status: "Completed",
-    technologies: ["Unity", "C#", "Game Jam", "Team Collaboration"],
-    features: ["Classic Gameplay", "Modern Graphics", "Team Development", "Game Jam Entry"],
+    technologies: ["Unity", "C#", "Team Collaboration"],
+    features: ["Simple Gameplay", "Basic Design", "Endless Puzzle"],
     demoUrl: "https://fupsee.itch.io/vanish-words",
     githubUrl: "https://github.com/sadikurrahamanfahim/VanishWords",
     date: "2025",
@@ -44,6 +44,18 @@ const gameProjects = [
 ]
 
 const webProjects = [
+  {
+    title: "Exam Archive",
+    description:
+      "Developed a full-stack web application that provides digital access to SSC and HSC question papers organized by board, year, and subject. The platform allows students to browse, preview, and download papers in a clean and responsive interface.",
+    image: "/ExamArchive.png",
+    status: "Live",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase"],
+    features: ["Organized browsing by class, year, and subject",  "PDF preview and download functionality", "Real-time data fetching from Supabase", "Dynamic routing and optimized server-side rendering", "Fully responsive design for mobile and desktop", "Full Admin Controll"],
+    demoUrl: "https://sschscpaper.vercel.app/",
+    githubUrl: "https://github.com/sadikurrahamanfahim/ExamArchive",
+    date: "2025",
+  },
   {
     title: "Movie Freak",
     description:
