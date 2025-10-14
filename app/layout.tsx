@@ -13,7 +13,8 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   title: "MD Sadikur Rahaman - Portfolio",
   description: "Computer Science & Engineering Graduate | Game Developer | Web Developer",
-  generator: "v0.app",
+  keywords: ['Unity', 'Game Developer', 'Sadikur Rahaman', 'Puzzle Games', 'UI Animation', 'C#', 'AR Development'],
+  authors: [{ name: 'Sadikur Rahaman', url: 'https://sadikurrahaman.vercel.app/' }],
 }
 
 export default function RootLayout({
