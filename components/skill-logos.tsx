@@ -186,7 +186,7 @@ export function SkillLogos() {
               </h3>
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 justify-items-center">
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
               {category.skills.map((skill, skillIndex) => (
                 <div
                   key={skillIndex}
