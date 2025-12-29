@@ -112,11 +112,11 @@ export default function AboutPage() {
                     </CardHeader>
                     <CardContent className="h-full">
                       <p className="text-muted-foreground leading-relaxed mb-4">
-                        Passionate Computer Science & Engineering graduate with
-                        a strong foundation in programming and problem-solving.
-                        I bring a unique blend of technical expertise and
-                        management experience, having worked across various
-                        domains from game development to web technologies.
+                        Computer Science & Engineering graduate with experience in 
+                        software and game development, project coordination, and cross-functional 
+                        collaboration. Skilled in problem-solving, communication, 
+                        and turning ideas into functional digital products. Enthusiastic about 
+                        innovation, continuous learning, and contributing to technology-driven teams.
                       </p>
                       <p className="text-muted-foreground leading-relaxed mb-4">
                         My journey in technology started with curiosity about

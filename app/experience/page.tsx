@@ -30,6 +30,43 @@ export default function ExperiencePage() {
                   <CardHeader>
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
                       <div>
+                        <CardTitle className="text-xl">Game Coordinator</CardTitle>
+                        <p className="text-base font-medium text-primary">SM Technology</p>
+                      </div>
+                      <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                        <Calendar className="h-4 w-4" />
+                        <span>10/2025 – Present</span>
+                      </div>
+                    </div>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="flex items-center gap-2 mb-3">
+                      <MapPin className="h-4 w-4 text-muted-foreground" />
+                      <span className="text-sm text-muted-foreground">Banasree, Dhaka-1219, Bangladesh</span>
+                    </div>
+                    <p className="text-muted-foreground mb-4">
+                      Responsible for managing client communication and ensuring seamless 
+                      coordination between internal teams such as Sales, Operations, 2D/3D Art, 
+                      UI/UX, and Unity/Unreal development. Conducted client meetings, gathered 
+                      and clarified requirements, shared regular progress updates, and resolved 
+                      queries from both clients and team members. Assisted the Project Manager in 
+                      tracking project progress and timelines, maintained smooth cross-team 
+                      collaboration, and occasionally supported development tasks using Unity.
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                      <Badge variant="secondary">Client Communication</Badge>
+                      <Badge variant="secondary">Project Coordination</Badge>
+                      <Badge variant="secondary">Cross-Team Collaboration</Badge>
+                      <Badge variant="secondary">Task & Timeline Management</Badge>
+                      <Badge variant="secondary">Unity Development Support</Badge>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card className="code-block">
+                  <CardHeader>
+                    <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+                      <div>
                         <CardTitle className="text-xl">Operations Manager</CardTitle>
                         <p className="text-base font-medium text-primary">Qiulin Technologies</p>
                       </div>
