@@ -6,14 +6,38 @@ import { ExternalLink, Github, Calendar } from "lucide-react"
 
 const gameProjects = [
   {
+    title: "Bang Blast",
+    description:
+      "A polished block puzzle game featuring an enhanced UI, time-based gameplay challenges, and visual effects (VFX) to create a more engaging and dynamic puzzle experience.",
+    image: "/Bang Blast.png",
+    status: "Live",
+    technologies: ["Unity", "C#", "Puzzle", "2D", "Game Design"],
+    features: ["Dental procedure gameplay", "Interactive tools"],
+    demoUrl: "https://fupsee.itch.io/bang-blast",
+    githubUrl: "https://github.com/sadikurrahamanfahim/Bang-Blast",
+    date: "2026",
+  },
+  {
+    title: "Dental Debt",
+    description:
+      "A hyper-casual dental game developed in Unity where players use a variety of tools to complete dental treatments. Implemented interactive tool mechanics, character selection, and a sequential treatment system in collaboration with a 2D artist for the artwork and character animations.",
+    image: "/Dental Debt.png",
+    status: "Live",
+    technologies: ["Unity", "C#", "2D Animation", "Game Design"],
+    features: ["Dental procedure gameplay", "Interactive tools"],
+    demoUrl: "https://fupsee.itch.io/dental-debt",
+    githubUrl: "https://github.com/sadikurrahamanfahim/Dental-Debt",
+    date: "2026",
+  },
+  {
     title: "Jingle Word",
     description:
       "A Christmas-themed word puzzle game with integrated assets and time functionality. Designed majority of assets using Figma and implemented engaging gameplay mechanics.",
     image: "/JingleWrods.png",
-    status: "Under Review",
+    status: "Live",
     technologies: ["Unity", "C#", "Figma", "Game Design"],
     features: ["Christmas Theme", "Word Puzzles", "Time Challenges", "Custom Assets & UI"],
-    demoUrl: null,
+    demoUrl: "https://fupsee.itch.io/jingle-words",
     githubUrl: "https://github.com/sadikurrahamanfahim/Admob-R-D",
     date: "2024",
   },
@@ -22,7 +46,7 @@ const gameProjects = [
     description:
       "A creative remix of the classic Pacman game developed for Crazy Webgame GameJam 2024. Collaborated with team a member to create an innovative take on the beloved arcade game.",
     image: "/PacMan.png",
-    status: "Completed",
+    status: "Live",
     technologies: ["Unity", "C#", "Game Jam", "Team Collaboration"],
     features: ["Classic Gameplay", "Modern Graphics", "Team Development", "Game Jam Entry"],
     demoUrl: "https://masupasu.itch.io/pacman-genjam",
@@ -34,7 +58,7 @@ const gameProjects = [
     description:
       "Developed a simple 2D Unity game with random alphabet sorting, dynamic feedback, and endless gameplay mechanics.",
     image: "/VanishWords.png",
-    status: "Completed",
+    status: "Live",
     technologies: ["Unity", "C#", "Team Collaboration"],
     features: ["Simple Gameplay", "Basic Design", "Endless Puzzle"],
     demoUrl: "https://fupsee.itch.io/vanish-words",

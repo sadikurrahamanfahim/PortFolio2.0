@@ -31,7 +31,7 @@ export default function ExperiencePage() {
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
                       <div>
                         <CardTitle className="text-xl">Game Coordinator</CardTitle>
-                        <p className="text-base font-medium text-primary">SM Technology</p>
+                        <p className="text-base font-medium text-primary"></p>
                       </div>
                       <div className="flex items-center gap-2 text-sm text-muted-foreground">
                         <Calendar className="h-4 w-4" />

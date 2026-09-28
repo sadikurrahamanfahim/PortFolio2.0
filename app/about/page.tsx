@@ -112,24 +112,31 @@ export default function AboutPage() {
                     </CardHeader>
                     <CardContent className="h-full">
                       <p className="text-muted-foreground leading-relaxed mb-4">
-                        Computer Science & Engineering graduate with experience in 
-                        software and game development, project coordination, and cross-functional 
-                        collaboration. Skilled in problem-solving, communication, 
-                        and turning ideas into functional digital products. Enthusiastic about 
-                        innovation, continuous learning, and contributing to technology-driven teams.
+                        My journey in technology started with curiosity about how 
+                        things work and gradually grew into a passion for building 
+                        interactive experiences. Today, I work at the intersection 
+                        of game development, problem-solving, and project execution, 
+                        with a growing focus on Unity and interactive applications.
                       </p>
                       <p className="text-muted-foreground leading-relaxed mb-4">
-                        My journey in technology started with curiosity about
-                        how things work and evolved into a passion for creating
-                        innovative digital solutions. I believe in the power of
-                        technology to solve real-world problems and create
-                        meaningful experiences.
+                        Through my work, I collaborate with artists, designers, 
+                        developers, and clients to turn ideas and requirements 
+                        into functional and experiences. Along the way, 
+                        I’ve learned that creating a good product is not only about 
+                        writing code, it’s also about understanding the idea, 
+                        communicating clearly, solving challenges, and bringing 
+                        different parts of a project together.
                       </p>
                       <p className="text-muted-foreground leading-relaxed">
-                        When I'm not coding, I enjoy exploring new technologies,
-                        contributing to open-source projects, and staying
-                        updated with the latest trends in software development
-                        and game design.
+                        I’m continuously learning, experimenting with new technologies, 
+                        and improving my skills through hands-on projects. I enjoy 
+                        taking an idea from discussion to implementation and seeing 
+                        it evolve into something people can actually interact with.
+                      </p>
+                      <p className="text-muted-foreground leading-relaxed">
+                        Outside of development, I like exploring new tools, 
+                        experimenting with diferrent things, and keeping up 
+                        with developments.
                       </p>
                     </CardContent>
                   </Card>
