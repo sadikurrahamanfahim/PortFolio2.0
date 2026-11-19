@@ -69,6 +69,18 @@ const gameProjects = [
 
 const webProjects = [
   {
+    title: "Manage Mods",
+    description:
+      "Developed a full-stack web application that provides ability manage online orders who specially runs theit online business through Facebook/Instagram. The appication also contains Steadfast API connectivity.",
+    image: "/ManageMods.png",
+    status: "Live",
+    technologies: ["ASP.NET", "C#", "MVC", "SQL Server", "Supabase"],
+    features: ["Manaing order, stock, and all the moderators",  "Easy steadfast entry", "Storing product details with and without pictures", "Full Admin Controll"],
+    demoUrl: "https://manage-mods.onrender.com/",
+    githubUrl: "https://github.com/sadikurrahamanfahim/ManageMods",
+    date: "2026",
+  },
+  {
     title: "Exam Archive",
     description:
       "Developed a full-stack web application that provides digital access to SSC and HSC question papers organized by board, year, and subject. The platform allows students to browse, preview, and download papers in a clean and responsive interface.",
